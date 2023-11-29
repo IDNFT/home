@@ -137,7 +137,7 @@ export default function Features() {
                       <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} />
                     </div>
                   </Transition>
-                  {/* Item 3 */}
+                  Item 3
                   <Transition
                     show={tab === 3}
                     appear={true}

@@ -14,9 +14,9 @@ export default function Home() {
     <>
       <Hero />
       <Features />
-      <FeaturesBlocks />
+      {/* <FeaturesBlocks />
       <Testimonials />
-      <Newsletter />
+      <Newsletter /> */}
     </>
   )
 }
