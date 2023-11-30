@@ -3,9 +3,9 @@
 import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
-import FeaturesBg from '@/public/illustration/Embrace.svg'
+import FeaturesBg from '@/public/illustration/Educate.svg'
 
-export default function Embrace() {
+export default function Educate() {
   
   const [tab, setTab] = useState<number>(1)
 
@@ -35,7 +35,7 @@ export default function Embrace() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto my-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h2 className="h2 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700">Embrace</h2>
+                <h2 className="h2 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700">Educate</h2>
                 <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function Embrace() {
                 <div className="relative flex flex-col text-center lg:text-right" data-aos="zoom-y-out" ref={tabs}>
                   {/* Item 1 */}
                   <Transition
-                    show={tab === 1}
+                    show={tab === 2}
                     appear={true}
                     className="w-full"
                     enter="transition ease-in-out duration-700 transform order-first"
@@ -64,7 +64,7 @@ export default function Embrace() {
                   </Transition>
                   {/* Item 2 */}
                   <Transition
-                    show={tab === 2}
+                    show={tab === 1}
                     appear={true}
                     className="w-full"
                     enter="transition ease-in-out duration-700 transform order-first"
@@ -101,9 +101,7 @@ export default function Embrace() {
                 </div>
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
     </section>
