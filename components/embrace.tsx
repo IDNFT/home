@@ -5,7 +5,7 @@ import { Transition } from '@headlessui/react'
 import Image from 'next/image'
 import FeaturesBg from '@/public/illustration/Embrace.svg'
 
-export default function Features() {
+export default function Embrace() {
   
   const [tab, setTab] = useState<number>(1)
 
@@ -28,12 +28,6 @@ export default function Features() {
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
-
-          {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Explore the solutions</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
-          </div>
 
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">
@@ -92,71 +86,10 @@ export default function Features() {
                 </a>
               </div>
             </div>
-
-            {/* Tabs items */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1">
-              <div className="transition-all">
-                <div className="relative flex flex-col text-center lg:text-right" data-aos="zoom-y-out" ref={tabs}>
-                  {/* Item 1 */}
-                  <Transition
-                    show={tab === 1}
-                    appear={true}
-                    className="w-full"
-                    enter="transition ease-in-out duration-700 transform order-first"
-                    enterFrom="opacity-0 translate-y-16"
-                    enterTo="opacity-100 translate-y-0"
-                    leave="transition ease-in-out duration-300 transform absolute"
-                    leaveFrom="opacity-100 translate-y-0"
-                    leaveTo="opacity-0 -translate-y-16"
-                    beforeEnter={() => heightFix()}
-                    unmount={false}                     
-                  >
-                    <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" />
-                    </div>
-                  </Transition>
-                  {/* Item 2 */}
-                  <Transition
-                    show={tab === 2}
-                    appear={true}
-                    className="w-full"
-                    enter="transition ease-in-out duration-700 transform order-first"
-                    enterFrom="opacity-0 translate-y-16"
-                    enterTo="opacity-100 translate-y-0"
-                    leave="transition ease-in-out duration-300 transform absolute"
-                    leaveFrom="opacity-100 translate-y-0"
-                    leaveTo="opacity-0 -translate-y-16"
-                    beforeEnter={() => heightFix()}
-                    unmount={false}                     
-                  >
-                    <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" />
-                    </div>
-                  </Transition>
-        
-                  <Transition
-                    show={tab === 3}
-                    appear={true}
-                    className="w-full"
-                    enter="transition ease-in-out duration-700 transform order-first"
-                    enterFrom="opacity-0 translate-y-16"
-                    enterTo="opacity-100 translate-y-0"
-                    leave="transition ease-in-out duration-300 transform absolute"
-                    leaveFrom="opacity-100 translate-y-0"
-                    leaveTo="opacity-0 -translate-y-16"
-                    beforeEnter={() => heightFix()}
-                    unmount={false}                     
-                  >
-                    <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" />
-                    </div>
-                  </Transition>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
+             <div className="relative inline-flex flex-col">
+             <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" />
+             </div>
+            </Transition>
         </div>
       </div>
     </section>
