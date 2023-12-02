@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import FeatImage01 from '@/public/illustration/Empower.svg'
+import FeatImage01 from '@/public/illustration/Embrace.svg'
 import FeatImage02 from '@/public/illustration/Educate.svg'
 import FeatImage03 from '@/public/illustration/Empower.svg'
 
