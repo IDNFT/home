@@ -21,7 +21,7 @@ export default function Hero() {
             videoHeight={1080} />
           
           {/* Social as */}
-          <div className="flex justify-center my-4"> 
+          <div className="flex justify-center my-4" data-aos="zoom-y-out" data-aos-delay="150"> 
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
             <li className="ml-4">
               <a href="https://instagram.com/id.nft" className="flex justify-center items-center text-red-700 hover:text-white bg-red-300 hover:bg-rose-700 rounded-lg shadow transition duration-150 ease-in-out" aria-label="Instagram">
