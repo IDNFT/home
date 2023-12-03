@@ -28,7 +28,7 @@ export default function Tagline() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <h1 className="h1 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700">EMBRACE</h1>
+                  <h2 className="h2 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700">EMBRACE</h2>
                   <p className="text-xl text-gray-600 mb-4">We invite creators, developers, industry players, government officials, universities, and media to collaborate in making the NFT, Web3, and Blockchain ecosystem a good and supportive place for everyone.</p>
                 </div>
               </div>
@@ -43,7 +43,7 @@ export default function Tagline() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <h1 className="h1 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700">EDUCATE</h1>
+                  <h2 className="h2 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700">EDUCATE</h2>
                   <p className="text-xl text-gray-600 mb-4">We initiate education for our community, universities, and the public, bringing experts and industry players to provide updates on news, information, and opportunities within the industry.</p>
                 </div>
               </div>
@@ -58,7 +58,7 @@ export default function Tagline() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <h1 className="h1 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700">EMPOWER</h1>
+                  <h2 className="h2 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700">EMPOWER</h2>
                   <p className="text-xl text-gray-600 mb-4">We initiate education for our community, universities, and the public, bringing experts and industry players to provide updates on news, information, and opportunities within the industry.</p>
                 </div>
               </div>

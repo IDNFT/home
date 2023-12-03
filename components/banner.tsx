@@ -11,7 +11,12 @@ export default function Banner() {
       {bannerOpen && (
         <div className="fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-50">
           <div className="bg-slate-50 text-red-900 text-sm p-3 md:rounded shadow-lg flex justify-between">
-            <div className='text-slate-500 inline-flex'><a className="font-medium hover:underline text-red-900" href="https://github.com/cruip/tailwind-landing-page-template" target="_blank" rel="noreferrer">Let's<span className="hidden sm:inline"> Join Us</span></a> <span className="italic px-1.5">or</span> <a className="font-medium hover:underline text-red-900" href="https://idnft.id/" target="_blank" rel="noreferrer">See our Community</a></div>
+            <div className='text-slate-500 inline-flex'>
+              <a className="font-medium hover:underline text-red-900" href="#" target="_blank" rel="noreferrer">Let's<span className="hidden sm:inline"> Join Us</span>
+              </a> <span className="italic px-1.5">or</span> 
+              <a className="font-medium hover:underline text-red-900" href="https://idnft.id/" target="_blank" rel="noreferrer">See our Community
+              </a>
+            </div>
             <button className="text-slate-500 hover:text-slate-400 pl-2 ml-3 border-l border-gray-700" onClick={() => setBannerOpen(false)}>
               <span className="sr-only">Close</span>
               <svg className="w-4 h-4 shrink-0 fill-current" viewBox="0 0 16 16">
