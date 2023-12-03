@@ -1,5 +1,5 @@
-import VideoThumb from '@/public/illustration/Hero.svg'
-import ModalVideo from '@/components/modal-video'
+import Thumb from '@/public/illustration/Hero.svg'
+import Media from '@/components/media'
 
 export default function Hero() {
   return (
@@ -11,14 +11,14 @@ export default function Hero() {
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
           {/* Hero image */}
-          <ModalVideo
-            thumb={VideoThumb}
+          <Media
+            thumb={Thumb}
             thumbWidth={768}
             thumbHeight={432}
             thumbAlt="/Hero.svg"
-            video="/Hero.svg"
-            videoWidth={1920}
-            videoHeight={1080} />
+            media="/Hero.svg"
+            mediaWidth={1920}
+            mediaHeight={1080} />
           
           {/* Social as */}
           <div className="flex justify-center my-4" data-aos="zoom-y-out" data-aos-delay="150"> 
@@ -65,7 +65,7 @@ export default function Hero() {
           <div className="text-center pb-12 md:pb-16">
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"> <span className="bg-clip-text text-transparent bg-gradient-to-r from-rose-700 to-red-700">IDNFT is the largest NFT and Web3 community in Indonesia.</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">We are focused on education and adoption by bridging the gap between industry players and the user base in Indonesia. We believe that the NFT, Web3, and Blockchain technology will benefit us in the long term.</p>
+              <p className="text-lg text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">We are focused on education and adoption by bridging the gap between industry players and the user base in Indonesia. We believe that the NFT, Web3, and Blockchain technology will benefit us in the long term.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="btn text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">MINT NFT</a>

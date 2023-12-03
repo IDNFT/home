@@ -5,25 +5,25 @@ import type { StaticImageData } from 'next/image'
 import { Dialog, Transition } from '@headlessui/react'
 import Image from 'next/image'
 
-interface ModalVideoProps {
+interface MediaProps {
   thumb: StaticImageData
   thumbWidth: number
   thumbHeight: number
   thumbAlt: string
-  video: string
-  videoWidth: number
-  videoHeight: number
+  media: string
+  mediaWidth: number
+  mediaHeight: number
 }
 
-export default function ModalVideo({
+export default function Media({
   thumb,
   thumbWidth,
   thumbHeight,
   thumbAlt,
-  video,
-  videoWidth,
-  videoHeight,
-}: ModalVideoProps) {
+  media,
+  mediaWidth,
+  mediaHeight,
+}: MediaProps) {
   const [modalOpen, setModalOpen] = useState<boolean>(false)
   const videoRef = useRef<HTMLVideoElement>(null)
 
@@ -85,8 +85,8 @@ export default function ModalVideo({
           >
             <div className="max-w-6xl mx-auto h-full flex items-center">
               <Dialog.Panel className="w-full max-h-full aspect-video bg-black overflow-hidden">
-                <video ref={videoRef} width={videoWidth} height={videoHeight} loop controls>
-                  <source src={video} type="video/mp4" />
+                <video ref={videoRef} width={mediaWidth} height={mediaHeight} loop controls>
+                  <source src={media} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </Dialog.Panel>

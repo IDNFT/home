@@ -1,8 +1,7 @@
-import Image from 'next/image'
-
-import FeatImage01 from '@/public/illustration/Embrace.svg'
-import FeatImage02 from '@/public/illustration/Educate.svg'
-import FeatImage03 from '@/public/illustration/Empower.svg'
+import Media from '@/components/media'
+import Thumb01 from '@/public/illustration/Embrace.svg'
+import Thumb02 from '@/public/illustration/Educate.svg'
+import Thumb03 from '@/public/illustration/Empower.svg'
 
 export default function Tagline() {
   return (
@@ -23,13 +22,13 @@ export default function Tagline() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage01} width={540} height={405} alt="Features 01" />
+                <Media thumb={Thumb01} thumbWidth={540} thumbHeight={405} thumbAlt="Embrace" media='Embrace.svg' mediaHeight={540} mediaWidth={405} />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <h2 className="h2 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700">EMBRACE</h2>
-                  <p className="text-xl text-gray-600 mb-4">We invite creators, developers, industry players, government officials, universities, and media to collaborate in making the NFT, Web3, and Blockchain ecosystem a good and supportive place for everyone.</p>
+                  <p className="text-lg text-gray-600 mb-4">We invite creators, developers, industry players, government officials, universities, and media to collaborate in making the NFT, Web3, and Blockchain ecosystem a good and supportive place for everyone.</p>
                 </div>
               </div>
             </div>
@@ -38,7 +37,7 @@ export default function Tagline() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage02} width={540} height={405} alt="Features 02" />
+                <Media thumb={Thumb02} thumbWidth={540} thumbHeight={405} thumbAlt="Educate" media='Educate.svg' mediaHeight={540} mediaWidth={405} />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
@@ -53,7 +52,7 @@ export default function Tagline() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage03} width={540} height={405} alt="Features 03" />
+                <Media thumb={Thumb03} thumbWidth={540} thumbHeight={405} thumbAlt="Empower" media='Empower.svg' mediaHeight={540} mediaWidth={405} />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">

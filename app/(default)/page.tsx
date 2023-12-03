@@ -1,15 +1,13 @@
 export const metadata = {
-  title: 'Home - Simple',
-  description: 'Page description',
+  title: 'IDNFT',
+  description: 'the largest NFT and Web3 community in Indonesia.',
 }
 
 import Hero from '@/components/hero'
 import Features from '@/components/features'
 import Tagline from '@/components/tagline'
 import Partner from '@/components/partner'
-import FeaturesBlocks from '@/components/features-blocks'
-import Testimonials from '@/components/testimonials'
-import Newsletter from '@/components/newsletter'
+
 
 export default function Home() {
   return (
@@ -18,9 +16,6 @@ export default function Home() {
       <Features />
       <Tagline />
       <Partner />
-      {/* <FeaturesBlocks />
-      <Testimonials />
-      <Newsletter /> */}
     </>
   )
 }
