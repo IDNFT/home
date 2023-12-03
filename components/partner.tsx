@@ -1,4 +1,5 @@
 import Image from "next/image"
+
 import UGM from '@/public/univ-ugm.svg'
 import ITS from '@/public/univ-its.svg'
 import UM from '@/public/univ-um.svg'
@@ -12,6 +13,22 @@ import IsiBali from "@/public/univ-isibali.svg"
 import Andalas from "@/public/univ-andalas.svg"
 import Binus from "@/public/univ-binus.svg"
 import UPN from "@/public/univ-upn.svg"
+
+import ABI from "@/public/gov-abi.svg"
+import ICCA from "@/public/gov-icca.svg"
+import Kominfo from "@/public/gov-kominfo.svg"
+import APAKI from "@/public/gov-apaki.svg"
+import Siber from "@/public/gov-siber.svg"
+
+import Solana from "@/public/comp-solana.svg"
+import Tezos from "@/public/comp-tezos.svg"
+import Algorand from "@/public/comp-algorand.svg"
+import Binance from "@/public/comp-binance.svg"
+import Tokocrypto from "@/public/comp-tokocrypto.svg"
+import Pintu from "@/public/comp-pintu.svg"
+import Morpheus from "@/public/comp-sermorpheus.svg"
+import Lenovo from "@/public/comp-lenovo.svg"
+import Acer from "@/public/comp-acer.svg"
 
 export default function Partner() {
   return (
@@ -43,15 +60,15 @@ export default function Partner() {
           </div>
 
           {/* Items */}
-          <div className="max-w-sm md:max-w-3xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-5 items-center">
+          <div className="max-w-sm md:max-w-3xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-5" data-aos="zoom-y-out">
 
             {/* Item */}
-            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-750">
+            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
             <Image className="md:max-w-none mx-auto" src={UGM} width={75} height="50" alt="UGM" />
             </div>
 
             {/* Item */}
-            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-75">
+            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
             <Image className="md:max-w-none mx-auto" src={ITS} width={75} height="50" alt="ITS" />
             </div>
 
@@ -110,6 +127,102 @@ export default function Partner() {
             <Image className="md:max-w-none mx-auto" src={Binus} width={75} height="50" alt="Binus" />
             </div>
         </div>
+        
+        <div className="py-12 md:py-20">
+
+         {/* Section header */}
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+            <p className="text-xl text-gray-600" data-aos="zoom-y-out">Association & Government Partner</p>
+          </div>    
+            
+            {/* Items */}
+          <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-5" data-aos="zoom-y-out">
+            
+            {/* Item */}
+            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+            <Image className="md:max-w-none mx-auto" src={ABI} width={75} height="50" alt="Asosiasi Blockchain Indonesia" />
+            </div>
+
+            {/* Item */}
+            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+            <Image className="md:max-w-none mx-auto" src={ICCA} width={75} height="50" alt="ICCA" />
+            </div>
+
+            {/* Item */}
+            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+            <Image className="md:max-w-none mx-auto" src={Kominfo} width={75} height="50" alt="Kominfo" />
+            </div>
+
+            {/* Item */}
+            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+            <Image className="md:max-w-none mx-auto" src={APAKI} width={75} height="50" alt="Asosiasi Pedagang Kripto Indonesia" />
+            </div>
+
+            {/* Item */}
+            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+            <Image className="md:max-w-none mx-auto" src={Siber} width={75} height="50" alt="Siber Kreasi" />
+            </div>
+
+          </div>
+        </div>  
+
+        <div className="py-12 md:py-20">
+
+         {/* Section header */}
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <p className="text-xl text-gray-600" data-aos="zoom-y-out">Industry Partner</p>
+          </div>
+          
+            {/* Items */}
+            <div className="max-w-sm md:max-w-3xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-5" data-aos="zoom-y-out">
+
+              {/* Item */}
+              <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+              <Image className="md:max-w-none mx-auto" src={Solana} width={75} height="50" alt="Solana" />
+              </div>
+
+              {/* Item */}
+              <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+              <Image className="md:max-w-none mx-auto" src={Tezos} width={75} height="50" alt="Tezos" />
+              </div>
+
+              {/* Item */}
+              <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+              <Image className="md:max-w-none mx-auto" src={Algorand} width={75} height="50" alt="Algorand" />
+              </div>
+
+              {/* Item */}
+              <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+              <Image className="md:max-w-none mx-auto" src={Binance} width={75} height="50" alt="Binance" />
+              </div>
+
+              {/* Item */}
+              <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+              <Image className="md:max-w-none mx-auto" src={Tokocrypto} width={75} height="50" alt="Tokocrypto" />
+              </div>
+
+              {/* Item */}
+              <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+              <Image className="md:max-w-none mx-auto" src={Pintu} width={75} height="50" alt="Pintu" />
+              </div>
+
+              {/* Item */}
+              <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+              <Image className="md:max-w-none mx-auto" src={Morpheus} width={75} height="50" alt="Sermorpheus" />
+              </div>
+
+              {/* Item */}
+              <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+              <Image className="md:max-w-none mx-auto" src={Lenovo} width={75} height="50" alt="Lenovo" />
+              </div>
+
+              {/* Item */}
+              <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+              <Image className="md:max-w-none mx-auto" src={Acer} width={75} height="50" alt="Acer" />
+              </div>
+
+            </div>
+        </div>      
       </div>
     </section>
   )

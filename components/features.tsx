@@ -38,7 +38,7 @@ export default function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700" data-aos="zoom-y-out" data-aos-delay="150">Our Programs</h1>
-            <p className="text-xl text-gray-600" data-aos="zoom-y-out" data-aos-delay="200">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <p className="text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="200">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
           </div>
 
           {/* Section content */}
@@ -59,7 +59,7 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1 text-red-700">IDNFT Academy</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="text-gray-600 text-base">Take collaboration to the next level with security and administrative features built for teams.</div>
                   </div>
                   <div className="flex justify-center items-center w-16 h-8">
                   <Image className="md:max-w-none mx-auto" src={IdnftAcademy} width={75} height="50" alt="IDNFT Academy" />
@@ -72,7 +72,7 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1 text-red-700">Web3 On Campus</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="text-gray-600 text-base">Take collaboration to the next level with security and administrative features built for teams.</div>
                   </div>
                   <div className="flex justify-center items-center w-16 h-8">
                   <Image className="md:max-w-none mx-auto" src={Web3Campus} width={75} height="50" alt="Web3 on Campus" />
@@ -84,7 +84,7 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}>
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1 text-red-700">Beyond Canvas</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="text-gray-600 text-base">Take collaboration to the next level with security and administrative features built for teams.</div>
                   </div>
                   <div className="flex justify-center items-center w-16 h-8">
                   <Image className="md:max-w-none mx-auto" src={BeyondCanvas} width={75} height="50" alt="Beyond Canvas" />
@@ -97,7 +97,7 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(4); }}>
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1 text-red-700">Temu NFT</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="text-gray-600 text-base">Take collaboration to the next level with security and administrative features built for teams.</div>
                   </div>
                   <div className="flex justify-center items-center w-16 h-8">
                   <Image className="md:max-w-none mx-auto" src={TemuNft} width={75} height="50" alt="Temu NFT" />
