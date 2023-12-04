@@ -7,6 +7,7 @@ import Hero from '@/components/hero'
 import Features from '@/components/features'
 import Tagline from '@/components/tagline'
 import Partner from '@/components/partner'
+import Community from '@/components/community'
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Features />
       <Tagline />
       <Partner />
+      <Community />
     </>
   )
 }
