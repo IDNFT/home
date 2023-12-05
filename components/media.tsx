@@ -37,8 +37,6 @@ export default function Media({
             <Image src={thumb} width={thumbWidth} height={thumbHeight} alt={thumbAlt} />
             <svg className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto" width="768" height="432" viewBox="0 0 768 432" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
               <g fill="none" fillRule="evenodd">
-                <circle fillOpacity=".04" fill="url(#hero-ill-a)" cx="384" cy="216" r="128" />
-                <circle fillOpacity=".16" fill="url(#hero-ill-b)" cx="384" cy="216" r="96" />
                 <g fillRule="nonzero">
                   <use fill="#000" xlinkHref="#hero-ill-d" />
                   <use fill="url(#hero-ill-e)" xlinkHref="#hero-ill-d" />
