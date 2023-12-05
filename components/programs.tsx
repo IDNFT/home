@@ -55,13 +55,15 @@ export default function Programs() {
                   media="/illustration/web3-campus-docs.png"
                   mediaWidth={1920}
                   mediaHeight={1080} />
-                  <Image className="rounded-full bg-white absolute p-2 shadow-lg" src={Web3Campus} width={72} height={72} alt="Web3 on Campus" />
+                  <Image className="rounded-full bg-white absolute p-3 shadow-lg" src={Web3Campus} width={96} height={72} alt="Web3 on Campus" />
                 </div>
               </div>
+              <div>
               <blockquote className="text-lg font-bold text-red-700">Web3 on Campus.</blockquote>
               <blockquote className="text-md text-gray-600">Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I've had Open PRO for about 24 hours now and I honestly don't know how I functioned without it before.</blockquote>
               <div className="text-gray-600 font-medium mt-6 pt-5 border-t border-gray-300 justify-center">
                 <a className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="#">Join Us</a>
+              </div>
               </div>
             </div>
 
