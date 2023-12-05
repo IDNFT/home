@@ -1,34 +1,34 @@
 import Image from "next/image"
 
-import UGM from '@/public/univ-ugm.svg'
-import ITS from '@/public/univ-its.svg'
-import UM from '@/public/univ-um.svg'
-import UII from '@/public/univ-uii.svg'
-import UB from '@/public/univ-ub.svg'
-import Widyatama from '@/public/univ-widyatama.svg'
-import Petra from '@/public/univ-petra.svg'
-import UPI from '@/public/univ-upi.svg'
-import Telkom from '@/public/univ-telkom.svg'
-import IsiBali from "@/public/univ-isibali.svg"
-import Andalas from "@/public/univ-andalas.svg"
-import Binus from "@/public/univ-binus.svg"
-import UPN from "@/public/univ-upn.svg"
+import UGM from '@/public/partner/univ-ugm.svg'
+import ITS from '@/public/partner/univ-its.svg'
+import UM from '@/public/partner/univ-um.svg'
+import UII from '@/public/partner/univ-uii.svg'
+import UB from '@/public/partner/univ-ub.svg'
+import Widyatama from '@/public/partner/univ-widyatama.svg'
+import Petra from '@/public/partner/univ-petra.svg'
+import UPI from '@/public/partner/univ-upi.svg'
+import Telkom from '@/public/partner/univ-telkom.svg'
+import IsiBali from "@/public/partner/univ-isibali.svg"
+import Andalas from "@/public/partner/univ-andalas.svg"
+import Binus from "@/public/partner/univ-binus.svg"
+import UPN from "@/public/partner/univ-upn.svg"
 
-import ABI from "@/public/gov-abi.svg"
-import ICCA from "@/public/gov-icca.svg"
-import Kominfo from "@/public/gov-kominfo.svg"
-import APAKI from "@/public/gov-apaki.svg"
-import Siber from "@/public/gov-siber.svg"
+import ABI from "@/public/partner/gov-abi.svg"
+import ICCA from "@/public/partner/gov-icca.svg"
+import Kominfo from "@/public/partner/gov-kominfo.svg"
+import APAKI from "@/public/partner/gov-apaki.svg"
+import Siber from "@/public/partner/gov-siber.svg"
 
-import Solana from "@/public/comp-solana.svg"
-import Tezos from "@/public/comp-tezos.svg"
-import Algorand from "@/public/comp-algorand.svg"
-import Binance from "@/public/comp-binance.svg"
-import Tokocrypto from "@/public/comp-tokocrypto.svg"
-import Pintu from "@/public/comp-pintu.svg"
-import Morpheus from "@/public/comp-sermorpheus.svg"
-import Lenovo from "@/public/comp-lenovo.svg"
-import Acer from "@/public/comp-acer.svg"
+import Solana from "@/public/partner/comp-solana.svg"
+import Tezos from "@/public/partner/comp-tezos.svg"
+import Algorand from "@/public/partner/comp-algorand.svg"
+import Binance from "@/public/partner/comp-binance.svg"
+import Tokocrypto from "@/public/partner/comp-tokocrypto.svg"
+import Pintu from "@/public/partner/comp-pintu.svg"
+import Morpheus from "@/public/partner/comp-sermorpheus.svg"
+import Lenovo from "@/public/partner/comp-lenovo.svg"
+import Acer from "@/public/partner/comp-acer.svg"
 
 export default function Partner() {
   return (
