@@ -11,19 +11,6 @@ import TemuNft from '@/public/illustration/temu-nft.png'
 import Thumb from '@/public/illustration/web3-campus-docs.png'
 
 export default function Programs() {
-  
-        const [tab, setTab] = useState<number>(2)
-      
-        const tabs = useRef<HTMLDivElement>(null)
-      
-        const heightFix = () => {
-          if (tabs.current && tabs.current.parentElement) tabs.current.parentElement.style.height = `${tabs.current.clientHeight}px`
-        }
-      
-        useEffect(() => {
-          heightFix()
-        }, []) 
-        
   return (
     <section className='relative'>
 
@@ -41,11 +28,11 @@ export default function Programs() {
           </div>
 
           {/* Our Programs */}
-          <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-4 lg:gap-6 items-start lg:max-w-none">
+          <div className="max-w-xl md:w-full md:col-span-5 mx-auto grid gap-8 lg:grid-cols-4 lg:gap-6">
 
             {/* 1st Program */}
             <div className="flex flex-col h-full p-6 bg-white shadow-md rounded-lg" data-aos="fade-up">
-              <div>
+              <div className="transition-all">
                 <div className="mb-4 flex place-items-end content-center justify-center">
                   <Media             
                   thumb={Thumb}
