@@ -1,23 +1,16 @@
 export const metadata = {
-  title: 'IDNFT',
+  title: 'IDNFT Academy',
   description: 'the largest NFT and Web3 community in Indonesia.',
 }
 
-import Hero from '@/components/hero'
-import Programs from '@/components/programs'
-import Tagline from '@/components/tagline'
-import Partner from '@/components/partner'
-import Community from '@/components/community'
+import HeroAcademy from '@/components/2-idnft-academy/hero-academy'
 
 
-export default function IdnftAcademy() {
+
+export default function idnftAcademy() {
   return (
     <>
-      <Hero />
-      <Programs />
-      <Tagline />
-      <Partner />
-      <Community />
+      <HeroAcademy />
     </>
   )
 }

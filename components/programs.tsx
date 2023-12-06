@@ -4,10 +4,11 @@ import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
 import Media from './media'
-import IdnftAcademy from '@/public/illustration/idnft-academy.png'
-import Web3Campus from '@/public/illustration/web3-campus.png'
-import BeyondCanvas from '@/public/illustration/beyond-canvas.png'
-import TemuNft from '@/public/illustration/temu-nft.png'
+import Link from 'next/link'
+import IdnftAcademylogo from '@/public/illustration/idnft-academy.png'
+import Web3Campuslogo from '@/public/illustration/web3-campus.png'
+import BeyondCanvaslogo from '@/public/illustration/beyond-canvas.png'
+import TemuNftlogo from '@/public/illustration/temu-nft.png'
 import Thumb1 from '@/public/illustration/web3-campus-docs.png'
 import Thumb2 from '@/public/illustration/idnft-academy-docs.png'
 import Thumb3 from '@/public/illustration/beyond-canvas-docs.png'
@@ -56,14 +57,14 @@ export default function Programs() {
                   media="/illustration/web3-campus-docs.png"
                   mediaWidth={1920}
                   mediaHeight={1080} />
-                  <Image className="rounded-full bg-white absolute p-3 shadow-lg" src={Web3Campus} width={96} height={72} alt="Web3 on Campus" />
+                  <Image className="rounded-full bg-white absolute p-3 shadow-lg" src={Web3Campuslogo} width={96} height={72} alt="Web3 on Campus" />
                 </div>
               </div>
               <div>
               <blockquote className="text-lg font-bold text-red-700">Web3 on Campus</blockquote>
               <blockquote className="text-md text-gray-600">A roadshow program aimed at socializing and educating students in 15 major universities in Indonesia.</blockquote>
               <div className="text-gray-600 font-medium mt-6 pt-5 border-t border-gray-300 text-center">
-                <a className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="#">Join Us</a>
+                <Link className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="/web3oncampus" replace>Join Us</Link>
               </div>
               </div>
             </div>
@@ -80,14 +81,14 @@ export default function Programs() {
                   media="/illustration/web3-campus-docs.png"
                   mediaWidth={1920}
                   mediaHeight={1080} />
-                  <Image className="rounded-full bg-white absolute p-3 shadow-lg" src={IdnftAcademy} width={96} height={72} alt="IDNFT Academy" />
+                  <Image className="rounded-full bg-white absolute p-3 shadow-lg" src={IdnftAcademylogo} width={96} height={72} alt="IDNFT Academy" />
                 </div>
               </div>
               <div>
               <blockquote className="text-lg font-bold text-red-700">IDNFT Academy</blockquote>
               <blockquote className="text-md text-gray-600">A series of structured online seminar courses with a comprehensive curriculum covering NFT, Web3, Crypto, and Blockchain.</blockquote>
               <div className="text-gray-600 font-medium mt-6 pt-5 border-t border-gray-300 text-center">
-                <a className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="#">Join Us</a>
+                <Link className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="/idnft-academy" replace>Join Us</Link>
               </div>
               </div>
             </div>
@@ -104,14 +105,14 @@ export default function Programs() {
                   media="/illustration/web3-campus-docs.png"
                   mediaWidth={1920}
                   mediaHeight={1080} />
-                  <Image className="rounded-full bg-white absolute p-2 shadow-lg object-contain" src={BeyondCanvas} width={96} height={96} alt="Beyond Canvas" />
+                  <Image className="rounded-full bg-white absolute p-2 shadow-lg object-contain" src={BeyondCanvaslogo} width={96} height={96} alt="Beyond Canvas" />
                 </div>
               </div>
               <div>
               <blockquote className="text-lg font-bold text-red-700">Beyond Canvas</blockquote>
               <blockquote className="text-md text-gray-600">An exhibition program for artists and NFT creators trougtout Indonesia, both in the Metaverse and physical exhibitions.</blockquote>
               <div className="text-gray-600 font-medium mt-6 pt-5 border-t border-gray-300 text-center">
-                <a className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="#">Join Us</a>
+                <Link className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="/beyond-canvas" replace>Join Us</Link>
               </div>
               </div>
             </div>
@@ -128,14 +129,14 @@ export default function Programs() {
                   media="/illustration/web3-campus-docs.png"
                   mediaWidth={1920}
                   mediaHeight={1080} />
-                  <Image className="rounded-full bg-white absolute p-2 shadow-lg" src={TemuNft} width={96} height={72} alt="Temu NFT & Web3" />
+                  <Image className="rounded-full bg-white absolute p-2 shadow-lg" src={TemuNftlogo} width={96} height={72} alt="Temu NFT & Web3" />
                 </div>
               </div>
               <div>
               <blockquote className="text-lg font-bold text-red-700">Temu NFT and Web3</blockquote>
               <blockquote className="text-md text-gray-600">A roadshow program to various cities in Indonesia for education, socialization, and community engagement in the NFT and Web3 space.</blockquote>
               <div className="text-gray-600 font-medium mt-6 pt-5 border-t border-gray-300 text-center">
-                <a className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="#">Join Us</a>
+                <a className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="temu-nft">Join Us</a>
               </div>
               </div>
             </div>
