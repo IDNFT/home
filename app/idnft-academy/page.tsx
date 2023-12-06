@@ -10,7 +10,7 @@ import Partner from '@/components/partner'
 import Community from '@/components/community'
 
 
-export default function Home() {
+export default function IdnftAcademy() {
   return (
     <>
       <Hero />
