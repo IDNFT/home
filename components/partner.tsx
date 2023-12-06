@@ -60,7 +60,7 @@ export default function Partner() {
           </div>
 
           {/* Items */}
-          <div className="max-w-sm md:max-w-3xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-5" data-aos="zoom-y-out">
+          <div className="max-w-sm md:max-w-3xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-5 place-items-center justify-items-center justify-center content-center items-center" data-aos="zoom-y-out">
 
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
