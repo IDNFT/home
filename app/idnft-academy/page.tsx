@@ -7,7 +7,7 @@ import HeroAcademy from '@/components/2-idnft-academy/hero-academy'
 
 
 
-export default function idnftAcademy() {
+export default function IdnftAcademy() {
   return (
     <>
       <HeroAcademy />
