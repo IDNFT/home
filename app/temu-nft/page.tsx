@@ -6,11 +6,11 @@ export const metadata = {
 import HeroTemunft from '@/components/4-temunft/hero-temunft'
 
 
-
 export default function TemuNft() {
   return (
     <>
       <HeroTemunft />
+
     </>
   )
 }
