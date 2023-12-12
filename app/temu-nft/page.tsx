@@ -4,12 +4,13 @@ export const metadata = {
 }
 
 import HeroTemunft from '@/components/4-temunft/hero-temunft'
-
+import GalleryTemuNft from '@/components/4-temunft/gallery-temunft'
 
 export default function TemuNft() {
   return (
     <>
       <HeroTemunft />
+      <GalleryTemuNft />
 
     </>
   )
