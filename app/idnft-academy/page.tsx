@@ -4,13 +4,14 @@ export const metadata = {
 }
 
 import HeroAcademy from '@/components/2-idnft-academy/hero-academy'
-
+import GalleryAcademy from '@/components/2-idnft-academy/gallery-academy'
 
 
 export default function IdnftAcademy() {
   return (
     <>
       <HeroAcademy />
+      <GalleryAcademy />
     </>
   )
 }

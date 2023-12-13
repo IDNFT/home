@@ -4,14 +4,14 @@ export const metadata = {
 }
 
 import HeroBeyondCanvas from '@/components/3-beyondcanvas/hero-beyondcanvas'
-
+import GalleryBeyondCanvas from '@/components/3-beyondcanvas/gallery-beyondcanvas'
 
 
 export default function BeyondCanvas() {
   return (
     <>
       <HeroBeyondCanvas />
-
+      <GalleryBeyondCanvas />
     </>
   )
 }
