@@ -9,10 +9,10 @@ import IdnftAcademylogo from '@/public/illustration/idnft-academy.png'
 import Web3Campuslogo from '@/public/illustration/web3-campus.png'
 import BeyondCanvaslogo from '@/public/illustration/beyond-canvas.png'
 import TemuNftlogo from '@/public/illustration/temu-nft.png'
-import Thumb1 from '@/public/illustration/web3-campus-docs.png'
-import Thumb2 from '@/public/illustration/idnft-academy-docs.png'
-import Thumb3 from '@/public/illustration/beyond-canvas-docs.png'
-import Thumb4 from '@/public/illustration/temu-nft-docs.png'
+import Thumb1 from '@/public/images/hero-image.png'
+import Thumb2 from '@/public/images/hero-image.png'
+import Thumb3 from '@/public/images/hero-image.png'
+import Thumb4 from '@/public/images/hero-image.png'
 
 export default function GalleryTemuNft() {
   
@@ -30,33 +30,30 @@ export default function GalleryTemuNft() {
     <section className='relative'>
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
+      <div className="absolute inset-0 bg-white pointer-events-none mb-16" aria-hidden="true"></div>
       <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
   
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+        <div className="py-12 md:py-12">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-12">
             <h1 className="h2 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700" data-aos="zoom-y-out" data-aos-delay="150">Gallery</h1>
             <p className="text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="200">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
           </div>
 
-          {/* Our Programs */}
-          <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-4 lg:gap-6 items-start lg:max-w-none mb-8">
+          {/* Gallery */}
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
 
             {/* 1st Program */}
             <div data-aos="fade-up">
               <div>
                 <div>
                   <Slider             
-                  thumb={Thumb1}
-                  thumbWidth={768}
-                  thumbHeight={432}
-                  thumbAlt="/illustration/web3-campus-docs.png"
-                  media="/illustration/web3-campus-docs.png"
-                  mediaWidth={1920}
-                  mediaHeight={1080} />
+                  thumb1={Thumb1}
+                  thumb2={Thumb2}
+                  thumb3={Thumb3}
+                  thumb4={Thumb4} />
                </div>
               </div>
               <div>

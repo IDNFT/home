@@ -20,10 +20,10 @@ export default function TemuNft() {
         </div>
 
         {/* Hero content */}
-        <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
+        <div className="relative pt-32 pb-10 md:pt-20 md:pb-12">
 
           {/* Section header */}
-          <div className="text-center pb-12 md:pb-16">
+          <div className="text-center pb-12 md:pb-12">
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"> <span className="bg-clip-text text-transparent bg-gradient-to-r from-rose-700 to-red-700">Temu NFT & Web3</span></h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">A series of structured online seminar courses with a comprehensive curriculum covering NFT, Web3, Crypto, and Blockchain.</p>
@@ -38,6 +38,8 @@ export default function TemuNft() {
             </div>
           </div>
 
+          {/* Media Video */}
+          <div className="relative pt-12 pb-10 md:pt-12 md:pb-12">
           <ModalVideo
             thumb={VideoThumb}
             thumbWidth={1024}
@@ -46,6 +48,7 @@ export default function TemuNft() {
             video="/videos/video.mp4"
             videoWidth={1920}
             videoHeight={1080} />
+          </div>
 
         </div>
 
