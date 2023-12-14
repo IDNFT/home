@@ -7,7 +7,7 @@ export default function Tagline() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+        <div className="py-12 md:py-12">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16" data-aos="zoom-y-out" data-aos-delay="150">
@@ -16,10 +16,10 @@ export default function Tagline() {
           </div>
 
           {/* Items */}
-          <div className="grid gap-20">
+          <div className="max-x-3xl mx-auto grid gap-20 px-4 sm:px-8">
 
             {/* 1st item */}
-            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+            <div className="max-x-3xl mx-auto md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
                 <Media thumb={Thumb01} thumbWidth={540} thumbHeight={405} thumbAlt="Embrace" media='Embrace.svg' mediaHeight={540} mediaWidth={405} />

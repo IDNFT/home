@@ -39,11 +39,11 @@ export default function Programs() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700" data-aos="zoom-y-out" data-aos-delay="150">Our Programs</h1>
-            <p className="text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="200">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <p className="text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="200">IDNFT has successfully organized over 50+ online events, 25+ offline events, collaborated with more than 13+ universities, invited over 50+ speakers, and partnered with 50+ instutution/communities with total more than 25,000 participants.</p>
           </div>
 
           {/* Our Programs */}
-          <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-4 lg:gap-6 items-start lg:max-w-none mb-8">
+          <div className="max-w-3xl mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6 items-start lg:max-w-none mb-8">
 
             {/* 1st Program */}
             <div className="flex flex-col h-full p-6 bg-white shadow-md rounded-lg" data-aos="fade-up">
@@ -64,7 +64,7 @@ export default function Programs() {
               <blockquote className="text-lg font-bold text-red-700">Web3 on Campus</blockquote>
               <blockquote className="text-md text-gray-600">A roadshow program aimed at socializing and educating students in 15 major universities in Indonesia.</blockquote>
               <div className="text-gray-600 font-medium mt-6 pt-5 border-t border-gray-300 text-center">
-                <Link className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="/web3oncampus" replace>Join Us</Link>
+                <Link className="btn rounded-full font-medium text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="/web3oncampus" replace>See More</Link>
               </div>
               </div>
             </div>
@@ -88,7 +88,7 @@ export default function Programs() {
               <blockquote className="text-lg font-bold text-red-700">IDNFT Academy</blockquote>
               <blockquote className="text-md text-gray-600">A series of structured online seminar courses with a comprehensive curriculum covering NFT, Web3, Crypto, and Blockchain.</blockquote>
               <div className="text-gray-600 font-medium mt-6 pt-5 border-t border-gray-300 text-center">
-                <Link className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="/idnft-academy" replace>Join Us</Link>
+                <Link className="btn rounded-full font-medium text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="/idnft-academy" replace>See More</Link>
               </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ export default function Programs() {
               <blockquote className="text-lg font-bold text-red-700">Beyond Canvas</blockquote>
               <blockquote className="text-md text-gray-600">An exhibition program for artists and NFT creators trougtout Indonesia, both in the Metaverse and physical exhibitions.</blockquote>
               <div className="text-gray-600 font-medium mt-6 pt-5 border-t border-gray-300 text-center">
-                <Link className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="/beyond-canvas" replace>Join Us</Link>
+                <Link className="btn rounded-full font-medium text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="/beyond-canvas" replace>See More</Link>
               </div>
               </div>
             </div>
@@ -136,7 +136,7 @@ export default function Programs() {
               <blockquote className="text-lg font-bold text-red-700">Temu NFT and Web3</blockquote>
               <blockquote className="text-md text-gray-600">A roadshow program to various cities in Indonesia for education, socialization, and community engagement in the NFT and Web3 space.</blockquote>
               <div className="text-gray-600 font-medium mt-6 pt-5 border-t border-gray-300 text-center">
-                <a className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="temu-nft">Join Us</a>
+                <a className="btn rounded-full font-medium text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="temu-nft">See More</a>
               </div>
               </div>
             </div>

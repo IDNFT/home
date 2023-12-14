@@ -1,5 +1,8 @@
 import Thumb from '@/public/illustration/Hero.svg'
-import Media from '@/components/media'
+import MediaVideo from './media-video'
+import Media from './media'
+import Blank from '@/public/illustration/blank.png'
+import PageIllustration from './ui/page-illustration'
 
 export default function Hero() {
   return (
@@ -38,7 +41,7 @@ export default function Hero() {
               </a>
             </li>
             <li className="ml-4">
-              <a href="#0" className="flex justify-center items-center text-red-700 hover:text-white bg-red-300 hover:bg-rose-700 rounded-lg shadow transition duration-150 ease-in-out" aria-label="Discord">
+              <a href="https://discord.gg/idnft" className="flex justify-center items-center text-red-700 hover:text-white bg-red-300 hover:bg-rose-700 rounded-lg shadow transition duration-150 ease-in-out" aria-label="Discord">
                 <svg className="w-10 h-10 fill-current" viewBox="-8 -8 32 32" xmlns="http://www.w3.org/2000/svg">
                 <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
                 </svg>
@@ -65,18 +68,23 @@ export default function Hero() {
           <div className="text-center pb-12 md:pb-16">
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"> <span className="bg-clip-text text-transparent bg-gradient-to-r from-rose-700 to-red-700">IDNFT is the largest NFT and Web3 community in Indonesia.</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-lg text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">We are focused on education and adoption by bridging the gap between industry players and the user base in Indonesia. We believe that the NFT, Web3, and Blockchain technology will benefit us in the long term.</p>
+              <p className="text-lg text-gray-600 mb-4" data-aos="zoom-y-out" data-aos-delay="150">We are focused on education and adoption by bridging the gap between industry players and the user base in Indonesia. We believe that the NFT, Web3, and Blockchain technology will benefit us in the long term.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
-                <div>
-                  <a className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0" href="#">Join Us</a>
-                </div>
-                <div>
-                  <a className="btn rounded-full text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
+                <div className='mt-16 mb-4 md:mt-12 sm:mt-16 sm:w-auto sm:mb-0'>
+                 {/* <a className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0" href="#">Let's Collaborate</a> */}
+                  <MediaVideo 
+                  thumb={Blank}
+                  thumbWidth={150}
+                  thumbHeight={100}
+                  thumbAlt='no thumb'
+                  video='/videos/profile-idnft.mp4'
+                  videoWidth={1920}
+                  videoHeight={1080}
+                  />
                 </div>
               </div>
             </div>
           </div>
-
 
         </div>
 
