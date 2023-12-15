@@ -30,7 +30,7 @@ export default function Media({
   return (
     <div>
 
-      {/* Video thumbnail */}
+      {/* Thumbnail */}
       <div>
         <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
           <div className="flex flex-col justify-center">

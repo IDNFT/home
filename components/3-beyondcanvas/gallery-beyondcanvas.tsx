@@ -14,7 +14,7 @@ import Thumb2 from '@/public/images/hero-image.png'
 import Thumb3 from '@/public/images/hero-image.png'
 import Thumb4 from '@/public/images/hero-image.png'
 
-export default function GalleryTemuNft() {
+export default function GalleryBeyondCanvas() {
   
   const tabs = useRef<HTMLDivElement>(null)
       

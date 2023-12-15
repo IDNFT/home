@@ -63,13 +63,19 @@ export default function Partner() {
           <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-6 md:grid-cols-5 sm:grid-cols-6" data-aos="zoom-y-out">
 
             {/* Item */}
-            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-            <Image className="md:max-w-none mx-auto" src={UGM} width={75} height="50" alt="UGM" />
+            <div className="items-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+              <div>
+              <Image className="md:max-w-none mx-auto" src={UGM} width={75} height="50" alt="UGM" />
+              </div>
+              <h3 className='text-center text-sm text-gray-600'>Gadjah Mada University</h3>
             </div>
 
             {/* Item */}
-            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-            <Image className="md:max-w-none mx-auto" src={ITS} width={75} height="50" alt="ITS" />
+            <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+              <div>
+              <Image className="md:max-w-none mx-auto" src={ITS} width={75} height="50" alt="ITS" />  
+              </div>  
+              <h3 className="text-center text-sm text-gray-600">Sepuluh Nopember Technology Institute</h3>          
             </div>
 
             {/* Item */}
