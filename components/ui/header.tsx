@@ -1,12 +1,16 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Children } from 'react'
 
 import Link from 'next/link'
 import Logo from './logo'
 import Dropdown from '@/components/utils/dropdown'
 import MobileMenu from './mobile-menu'
 import Programs from '../programs'
+import Web3Campus from '@/app/web3oncampus/page'
+import IdnftAcademy from '@/app/idnft-academy/page'
+import BeyondCanvas from '@/app/beyond-canvas/page'
+import TemuNft from '@/app/temu-nft/page'
 
 export default function Header() {
 
@@ -44,10 +48,16 @@ export default function Header() {
                 <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">News</Link>
               </li>
               <li>
-                <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Programs</Link>
+                <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Community</Link>
               </li>
               <li>
-                <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Community</Link>
+                <Dropdown
+                children="Web3 on Campus
+                 IDNFT Academy 
+                 Beyond Canvas 
+                 Temu NFT"
+                title='Programs'
+                />
               </li>
               <li>
                 <Link href="#" className="btn-sm font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 ml-3 group rounded-full">
