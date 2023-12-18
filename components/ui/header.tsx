@@ -6,7 +6,6 @@ import Link from 'next/link'
 import Logo from './logo'
 import Dropdown from '@/components/utils/dropdown'
 import MobileMenu from './mobile-menu'
-import Programs from '../programs'
 import Web3Campus from '@/app/web3oncampus/page'
 import IdnftAcademy from '@/app/idnft-academy/page'
 import BeyondCanvas from '@/app/beyond-canvas/page'
@@ -50,12 +49,11 @@ export default function Header() {
               <li>
                 <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Community</Link>
               </li>
-              <li>
-                <Dropdown
-                children="Web3 on Campus
-                 IDNFT Academy 
-                 Beyond Canvas 
-                 Temu NFT"
+              <li className='text-gray-600'>
+                <Dropdown 
+                children={
+                <a href='/web3oncampus'>Web3 on Campus</a>
+              }
                 title='Programs'
                 />
               </li>
