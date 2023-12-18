@@ -49,13 +49,8 @@ export default function Header() {
               <li>
                 <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Community</Link>
               </li>
-              <li className='text-gray-600'>
-                <Dropdown 
-                children={
-                <a href='/web3oncampus'>Web3 on Campus</a>
-              }
-                title='Programs'
-                />
+              <li>
+                <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Programs</Link>
               </li>
               <li>
                 <Link href="#" className="btn-sm font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 ml-3 group rounded-full">
