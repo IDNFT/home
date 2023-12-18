@@ -11,8 +11,8 @@ export default function Tagline() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16" data-aos="zoom-y-out" data-aos-delay="150">
-            <h1 className="h2 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700">One product, unlimited solutions</h1>
-            <p className="text-lg text-gray-600">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+            <h1 className="h2 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700">IDNFT Vision</h1>
+            <p className="text-lg text-gray-600">Our vision is to help Indonesian creators start their journey in the NFT and Web3 space by embracing, educating, and empowering them.</p>
           </div>
 
           {/* Items */}

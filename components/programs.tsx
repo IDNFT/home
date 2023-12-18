@@ -62,7 +62,7 @@ export default function Programs() {
               </div>
               <div>
               <blockquote className="text-lg font-bold text-red-700">Web3 on Campus</blockquote>
-              <blockquote className="text-md text-gray-600">A roadshow program aimed at socializing and educating students in 15 major universities in Indonesia.</blockquote>
+              <blockquote className="text-md text-gray-600">A roadshow program aimed at socializing and educating students in 13 major universities in Indonesia.</blockquote>
               <div className="text-gray-600 font-medium mt-6 pt-5 border-t border-gray-300 text-center">
                 <Link className="btn rounded-full font-medium text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="/web3oncampus" replace>See More</Link>
               </div>
