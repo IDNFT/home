@@ -31,7 +31,7 @@ export default function Community() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center md:pb-4">
             <h1 className="h2 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700" data-aos="zoom-y-out" data-aos-delay="150">Community Center</h1>
-            <p className="text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="200">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <p className="text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="200">Follow IDNFT account for the latest updates on the Web3 and NFT industry in Indonesia! Stay informed and be part of the evolving digital landscape.</p>
           </div>
 
           {/* Social as */}
@@ -96,6 +96,7 @@ export default function Community() {
 
           {/* Section button */}
           <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center pb-12 md:pb-16">
+          <p className="text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="200">Let's together advance the Web3 and NFT industry in Indonesia.</p>
           <a className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-16 sm:w-auto sm:mb-6 mt-2" href="#">Let's Collaborate</a>
           </div>
         </div>
