@@ -30,7 +30,7 @@ export default function Tagline() {
                   <h2 className="h2 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700">EMBRACE</h2>
                   <p className="text-lg text-gray-600 mb-4">We invite creators, developers, industry players, government officials, universities, and media to collaborate in making the NFT, Web3, and Blockchain ecosystem a good and supportive place for everyone.</p>
                 </div>
-              </div>A
+              </div>
             </div>
 
             {/* 2nd item */}
