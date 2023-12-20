@@ -7,7 +7,7 @@ export default function Tagline() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-12">
+        <div className="pb-6 md:pb-6">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16" data-aos="zoom-y-out" data-aos-delay="150">
@@ -16,7 +16,7 @@ export default function Tagline() {
           </div>
 
           {/* Items */}
-          <div className="max-x-3xl mx-auto grid gap-20 px-4 sm:px-8">
+          <div className="max-x-3xl mx-auto grid gap-12 px-4 sm:px-8">
 
             {/* 1st item */}
             <div className="max-x-3xl mx-auto md:grid md:grid-cols-12 md:gap-6 items-center">
@@ -58,7 +58,7 @@ export default function Tagline() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <h2 className="h2 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700">EMPOWER</h2>
-                  <p className="text-lg text-gray-600 mb-4">We initiate education for our community, universities, and the public, bringing experts and industry players to provide updates on news, information, and opportunities within the industry.</p>
+                  <p className="text-lg text-gray-600 mb-4">With all stakeholders, we empower our community by facilitating connections, providing access, and bridging the gap between users and industry players, fostering endless possibilities in NFTs, Web3, and the world of blockchain technology on both local and global scales.</p>
                 </div>
               </div>
             </div>

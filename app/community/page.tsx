@@ -1,16 +1,18 @@
 export const metadata = {
-  title: 'IDNFT',
+  title: 'Community Center',
   description: 'the largest NFT and Web3 community in Indonesia.',
 }
 
-import Hero from '@/components/hero'
-import Tagline from '@/components/tagline'
+import SocialMedia from '@/components/community/community-social'
+import CommunityHero from '@/components/community/community-hero'
 
-export default function Community() {
+
+
+export default function CommunityPage() {
   return (
     <>
-      <Hero />
-      <Tagline />
+      <CommunityHero />
+      <SocialMedia />
     </>
   )
 }

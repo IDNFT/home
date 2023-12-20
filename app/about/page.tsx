@@ -4,13 +4,14 @@ export const metadata = {
 }
 
 import HeroAbout from '@/components/about/about-hero'
-import Tagline from '@/components/tagline'
+import Vision from '@/components/about/about-vision'
+
 
 export default function About() {
   return (
     <>
       <HeroAbout />
-      <Tagline />
+      <Vision />
     </>
   )
 }

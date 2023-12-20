@@ -65,17 +65,17 @@ export default function MobileMenu() {
         >
           <ul className="px-5 py-2">
             <li>
-              <Link href="#" className="flex font-medium w-full text-gray-600 hover:text-red-700 py-2" onClick={() => setMobileNavOpen(false)}>About</Link>
+              <Link href="/about" className="flex font-medium w-full text-gray-600 hover:text-red-700 py-2" onClick={() => setMobileNavOpen(false)}>About</Link>
             </li>
             <li>
-              <Link href="#" className="flex font-medium w-full text-gray-600 hover:text-red-700 py-2" onClick={() => setMobileNavOpen(false)}>News</Link>
+              <Link href="/news" className="flex font-medium w-full text-gray-600 hover:text-red-700 py-2" onClick={() => setMobileNavOpen(false)}>News</Link>
             </li>
             <li>
-              <Link href="#" className="flex font-medium w-full text-gray-600 hover:text-red-700 py-2" onClick={() => setMobileNavOpen(false)}>Community</Link>
+              <Link href="/community" className="flex font-medium w-full text-gray-600 hover:text-red-700 py-2" onClick={() => setMobileNavOpen(false)}>Community</Link>
             </li>
             <li className="border-y border-gray-300  my-2 py-2">
               <a className="font-medium w-full text-gray-600" onClick={() => setMobileNavOpen(false)}>Programs</a>
-              <Link href="#" className="flex font-sm w-full text-sm text-gray-600 hover:text-red-700 py-2 pl-4 pt-4" onClick={() => setMobileNavOpen(false)}>Web3 on Campus</Link>
+              <Link href="https://web3campus.idnft.id/" className="flex font-sm w-full text-sm text-gray-600 hover:text-red-700 py-2 pl-4 pt-4" onClick={() => setMobileNavOpen(false)}>Web3 on Campus</Link>
               <Link href="#" className="flex font-sm w-full text-sm text-gray-600 hover:text-red-700 py-2 pl-4" onClick={() => setMobileNavOpen(false)}>IDNFT Academy</Link>
               <Link href="#" className="flex font-sm w-full text-sm text-gray-600 hover:text-red-700 py-2 pl-4" onClick={() => setMobileNavOpen(false)}>Beyond Canvas</Link>
               <Link href="#" className="flex font-sm w-full text-sm text-gray-600 hover:text-red-700 py-2 pl-4" onClick={() => setMobileNavOpen(false)}>Temu NFT & Web3</Link>
