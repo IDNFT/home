@@ -55,7 +55,7 @@ export default function Slider({
       grabCursor={true}
       centeredSlides={true}
       autoplay={{
-        delay: 3000,
+        delay: 5000,
         disableOnInteraction: false,
       }}
       pagination={{ clickable: false }}
@@ -69,6 +69,10 @@ export default function Slider({
               <Image src={thumb1} width={640} height={360} alt="documentation" />
             </div>
           </div>
+          <div className="mb-10">
+            <h2 className="h3 ">IDNFT at Kompas</h2>
+            <a>lorem ipsum dolor sit amet lalaalala yeyeyeye oweyah mantab sekali</a>
+          </div>
         </SwiperSlide>
 
         <SwiperSlide>
@@ -76,6 +80,10 @@ export default function Slider({
             <div>
               <Image src={thumb2} width={640} height={360} alt="documentation" />
             </div>
+          </div>
+          <div className="mb-10">
+            <h2 className="h3 ">IDNFT at Detik</h2>
+            <a>lorem ipsum dolor sit amet lalaalala yeyeyeye oweyah mantab sekali</a>
           </div>
         </SwiperSlide>
 
@@ -85,6 +93,10 @@ export default function Slider({
               <Image src={thumb3} width={640} height={360} alt="documentation" />
             </div>
           </div>
+          <div className="mb-10">
+            <h2 className="h3 ">IDNFT at Tribun</h2>
+            <a>lorem ipsum dolor sit amet lalaalala yeyeyeye oweyah mantab sekali</a>
+          </div>
         </SwiperSlide>
 
         <SwiperSlide>
@@ -92,6 +104,10 @@ export default function Slider({
             <div>
               <Image src={thumb4} width={640} height={360} alt="documentation" />
             </div>
+          </div>
+          <div className="mb-10">
+            <h2 className="h3 ">IDNFT at TV One</h2>
+            <a>lorem ipsum dolor sit amet lalaalala yeyeyeye oweyah mantab sekali</a>
           </div>
         </SwiperSlide>
         

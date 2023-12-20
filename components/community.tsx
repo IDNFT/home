@@ -97,7 +97,7 @@ export default function Community() {
           {/* Section button */}
           <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center pb-12 md:pb-16">
           <p className="text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="200">Excited to join the journey? Let's together build the NFT, Crypto, Web3, and Blockchain industries in Indonesia!</p>
-          <a className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-16 sm:w-auto sm:mb-6 mt-6" href="#">Let's Collaborate</a>
+          <a className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-16 sm:w-auto sm:mb-6 mt-6" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=hi.idnft@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello%20IDNFT%2C%0A%0AI%20hope%20this%20message%20find%20you%20well.%20We%E2%80%99ve%20been%20following%20IDNFT's%20impactful%20work%20in%20the%20Web3%20and%20NFT%20space%20and%20are%20impressed%20by%20the%20innovative%20initiative,%0AI%20believe%20there%20could%20be%20exciting%20collaboration%20opportunities%20between%20our%20organizations.%20%0A%0ALooking%20forward%20to%20the%20possibility%20of%20working%20together,%0A%0A%0ABest%20regards,%2C%0A%0A%0A%0A">Let's Collaborate</a>
           </div>
         </div>
       </div>

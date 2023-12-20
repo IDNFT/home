@@ -1,14 +1,16 @@
 export const metadata = {
-  title: 'IDNFT',
+  title: 'News IDNFT',
   description: 'the largest NFT and Web3 community in Indonesia.',
 }
 
-import Tagline from '@/components/tagline'
+import NewsHero from '@/components/news/news-hero'
+import NewsSlider from '@/components/news/news-slider'
 
 export default function News() {
   return (
     <>
-      <Tagline />
+      <NewsHero />
+      <NewsSlider />
     </>
   )
 }
