@@ -6,10 +6,6 @@ import Link from 'next/link'
 import Logo from './logo'
 import Dropdown from '@/components/utils/dropdown'
 import MobileMenu from './mobile-menu'
-import Web3Campus from '@/app/web3oncampus/page'
-import IdnftAcademy from '@/app/idnft-academy/page'
-import BeyondCanvas from '@/app/beyond-canvas/page'
-import TemuNft from '@/app/temu-nft/page'
 
 export default function Header() {
 
