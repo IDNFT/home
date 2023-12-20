@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Logo from './logo'
 import Dropdown from '@/components/utils/dropdown'
 import MobileMenu from './mobile-menu'
+import { title } from 'process'
 
 export default function Header() {
 
@@ -46,7 +47,37 @@ export default function Header() {
                 <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Community</Link>
               </li>
               <li>
-                <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Programs</Link>
+                <Dropdown
+                title="Programs">
+                  <a href="https://web3campus.idnft.id/">
+                    <ul>
+                      <li className="mb-2 hover:text-red-700">
+                        Web3 on Campus
+                      </li>
+                    </ul>
+                  </a>
+                  <a href="#">
+                    <ul>
+                      <li className="mb-2 hover:text-red-700">
+                        IDNFT Academy
+                      </li>
+                    </ul>
+                  </a>
+                  <a href="#">
+                    <ul>
+                      <li className="mb-2 hover:text-red-700">
+                        Beyond Canvas
+                      </li>
+                    </ul>
+                  </a>
+                  <a href="#">
+                    <ul>
+                      <li className="mb-2 hover:text-red-700">
+                        Temu NFT & Web3
+                      </li>
+                    </ul>
+                  </a>
+                </Dropdown>
               </li>
               <li>
                 <Link href="#" className="btn-sm font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 ml-3 group rounded-full">

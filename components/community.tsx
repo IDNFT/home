@@ -26,7 +26,7 @@ export default function Community() {
       <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-12 md:pt-20">
+        <div className="pt-12 md:pt-20 pb-4">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center md:pb-4">
@@ -97,7 +97,7 @@ export default function Community() {
           {/* Section button */}
           <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center pb-12 md:pb-16">
           <p className="text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="200">Excited to join the journey? Let's together build the NFT, Crypto, Web3, and Blockchain industries in Indonesia!</p>
-          <a className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-16 sm:w-auto sm:mb-6 mt-2" href="#">Let's Collaborate</a>
+          <a className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-16 sm:w-auto sm:mb-6 mt-6" href="#">Let's Collaborate</a>
           </div>
         </div>
       </div>
