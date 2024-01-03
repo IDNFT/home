@@ -29,7 +29,7 @@ export default function NewsSlider() {
   
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-12">
-
+          
           {/* Gallery */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
 
