@@ -2,11 +2,11 @@
 
 import { useState, useRef, useEffect } from 'react'
 import Slider from '@/components/utils/slider'
-import Thumb1 from '@/public/images/hero-image.png'
-import Thumb2 from '@/public/images/hero-image.png'
-import Thumb3 from '@/public/images/hero-image.png'
-import Thumb4 from '@/public/images/hero-image.png'
-import Thumb5 from '@/public/images/hero-image.png'
+import Thumb1 from '@/public/images/thumb-ub.jpg'
+import Thumb2 from '@/public/images/thumb-binus.jpg'
+import Thumb3 from '@/public/images/thumb-um.jpg'
+import Thumb4 from '@/public/images/thumb-ugm.jpg'
+import Thumb5 from '@/public/images/thumb-malang.jpg'
 
 export default function NewsSlider() {
   
@@ -29,12 +29,6 @@ export default function NewsSlider() {
   
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-12">
-
-          {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-6 md:pb-4">
-            <h1 className="h2 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-rose-700" data-aos="zoom-y-out" data-aos-delay="150">Gallery</h1>
-            <p className="text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="200">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
-          </div>
 
           {/* Gallery */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">

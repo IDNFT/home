@@ -18,7 +18,9 @@ import "swiper/css/effect-coverflow";
 import { imageConfigDefault } from 'next/dist/shared/lib/image-config';
 
 // Import Logo Media Partner
-import Web3Campuslogo from "@/public/illustration/web3-campus.png"
+import Tempo from "@/public/partner/logo-tempo.svg"
+import Coinfolks from "@/public/partner/logo-coinfolks.svg"
+import Liputan6 from "@/public/partner/logo-liputan6.svg"
 
 interface SliderProps {
   thumb1: StaticImageData;
@@ -83,7 +85,7 @@ export default function Slider({
              media="/illustration/web3-campus-docs.png"
              mediaWidth={1920}
              mediaHeight={1080} />
-            <Image className="rounded-full bg-white absolute p-3 shadow-lg" src={Web3Campuslogo} width={96} height={72} alt="Web3 on Campus" />
+            <Image className="rounded-full bg-white absolute p-3 shadow-lg" src={Tempo} width={96} height={72} alt="Web3 on Campus" />
             </div>
              </div>
               <div>
@@ -106,7 +108,7 @@ export default function Slider({
              media="/illustration/web3-campus-docs.png"
              mediaWidth={1920}
              mediaHeight={1080} />
-            <Image className="rounded-full bg-white absolute p-3 shadow-lg" src={Web3Campuslogo} width={96} height={72} alt="Web3 on Campus" />
+            <Image className="rounded-full bg-white absolute p-3 shadow-lg" src={Liputan6} width={96} height={72} alt="Web3 on Campus" />
             </div>
              </div>
               <div>
@@ -130,7 +132,7 @@ export default function Slider({
              media="/illustration/web3-campus-docs.png"
              mediaWidth={1920}
              mediaHeight={1080} />
-            <Image className="rounded-full bg-white absolute p-3 shadow-lg" src={Web3Campuslogo} width={96} height={72} alt="Web3 on Campus" />
+            <Image className="rounded-full bg-white absolute p-3 shadow-lg" src={Coinfolks} width={96} height={72} alt="Web3 on Campus" />
             </div>
              </div>
               <div>
@@ -153,7 +155,7 @@ export default function Slider({
              media="/illustration/web3-campus-docs.png"
              mediaWidth={1920}
              mediaHeight={1080} />
-            <Image className="rounded-full bg-white absolute p-3 shadow-lg" src={Web3Campuslogo} width={96} height={72} alt="Web3 on Campus" />
+            <Image className="rounded-full bg-white absolute p-3 shadow-lg" src={Coinfolks} width={96} height={72} alt="Web3 on Campus" />
             </div>
              </div>
               <div>
@@ -176,7 +178,7 @@ export default function Slider({
              media="/illustration/web3-campus-docs.png"
              mediaWidth={1920}
              mediaHeight={1080} />
-            <Image className="rounded-full bg-white absolute p-3 shadow-lg" src={Web3Campuslogo} width={96} height={72} alt="Web3 on Campus" />
+            <Image className="rounded-full bg-white absolute p-3 shadow-lg" src={Tempo} width={96} height={72} alt="Web3 on Campus" />
             </div>
              </div>
               <div>
