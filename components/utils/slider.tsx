@@ -70,8 +70,8 @@ export default function Slider({
             </div>
           </div>
           <div className="mb-10">
-            <h2 className="h3 ">IDNFT at Kompas</h2>
-            <a>lorem ipsum dolor sit amet lalaalala yeyeyeye oweyah mantab sekali</a>
+            <h2 className="h2 mb-4">IDNFT Adakan Program Edukasi Web3 On Campus di Surabaya</h2>
+            <a>Perkembangan teknologi yang cepat membuat NFT menjadi sangat populer di Indonesia termasuk di kalangan mahasiswa. NFT atau Non-Fungible Token adalah aset digital, baik berupa teks, gambar, video, dan lain sebagainya yang kepemilikannya tercatat dalam sistem blockchain di internet.</a>
           </div>
         </SwiperSlide>
 

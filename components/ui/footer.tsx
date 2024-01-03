@@ -14,7 +14,7 @@ export default function Footer() {
               <Logo />
             </div>
             <div className="text-sm text-gray-600">
-              <a href="#0" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</a> · <a href="#0" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</a>
+              <a className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Embrace</a> · <a className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Educate</a> · <a className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Empower</a>
             </div>
           </div>
 
