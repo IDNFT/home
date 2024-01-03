@@ -75,13 +75,13 @@ export default function MobileMenu() {
             </li>
             <li className="border-y border-gray-300  my-2 py-2">
               <a className="font-medium w-full text-gray-600" onClick={() => setMobileNavOpen(false)}>Programs</a>
-              <Link href="https://web3campus.idnft.id/" className="flex font-sm w-full text-sm text-gray-600 hover:text-red-700 py-2 pl-4 pt-4" onClick={() => setMobileNavOpen(false)}>Web3 on Campus</Link>
+              <Link href="#" className="flex font-sm w-full text-sm text-gray-600 hover:text-red-700 py-2 pl-4 pt-4" onClick={() => setMobileNavOpen(false)}>Web3 on Campus</Link>
               <Link href="#" className="flex font-sm w-full text-sm text-gray-600 hover:text-red-700 py-2 pl-4" onClick={() => setMobileNavOpen(false)}>IDNFT Academy</Link>
               <Link href="#" className="flex font-sm w-full text-sm text-gray-600 hover:text-red-700 py-2 pl-4" onClick={() => setMobileNavOpen(false)}>Beyond Canvas</Link>
               <Link href="#" className="flex font-sm w-full text-sm text-gray-600 hover:text-red-700 py-2 pl-4" onClick={() => setMobileNavOpen(false)}>Temu NFT & Web3</Link>
             </li>
             <li>
-              <Link href="https://forms.gle/a8QEg5vfALi9knfp6" rel="noopener" target="_blank" className="btn-sm w-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 ml-3 group rounded-full">
+              <Link href="https://forms.gle/PjrXfkEb2YtVcviP7" rel="noopener" target="_blank" className="btn-sm w-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 ml-3 group rounded-full">
                 <span>Let's Collaborate</span>
                 <svg className="w-3 h-3 fill-current shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                    <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />

@@ -104,7 +104,7 @@ export default function SocialMedia() {
           {/* Section button */}
           <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center pb-12 md:pb-16">
           <p className="text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="200">Excited to join the journey? Let's together build the NFT, Crypto, Web3, and Blockchain industries in Indonesia!</p>
-          <Link className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-16 sm:w-auto sm:mb-6 mt-6" href="https://forms.gle/a8QEg5vfALi9knfp6" rel="noopener" target="_blank">Let's Collaborate</Link>
+          <Link className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-16 sm:w-auto sm:mb-6 mt-6" href="https://forms.gle/PjrXfkEb2YtVcviP7" rel="noopener" target="_blank">Let's Collaborate</Link>
           </div>
         </div>
       </div>

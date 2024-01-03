@@ -2,11 +2,11 @@
 
 import { useState, useRef, useEffect } from 'react'
 import Slider from '@/components/utils/slider'
-import Link from 'next/link'
 import Thumb1 from '@/public/images/hero-image.png'
 import Thumb2 from '@/public/images/hero-image.png'
 import Thumb3 from '@/public/images/hero-image.png'
 import Thumb4 from '@/public/images/hero-image.png'
+import Thumb5 from '@/public/images/hero-image.png'
 
 export default function NewsSlider() {
   
@@ -24,7 +24,7 @@ export default function NewsSlider() {
     <section className='relative'>
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div className="absolute inset-0 bg-white pointer-events-none mb-16" aria-hidden="true"></div>
+      <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
       <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
   
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
@@ -48,6 +48,7 @@ export default function NewsSlider() {
                   thumb2={Thumb2}
                   thumb3={Thumb3}
                   thumb4={Thumb4} 
+                  thumb5={Thumb5}
                   />
                </div>
               </div>
