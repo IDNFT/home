@@ -110,7 +110,7 @@ export default function Slider({
              thumbWidth={768}
              thumbHeight={432}
              thumbAlt="Kompas News"
-             media="/partner/logo-kompas.png"
+             media="/illustration/web3-campus-docs.png"
              mediaWidth={1920}
              mediaHeight={1080} />
             <Image className="rounded-full bg-white absolute p-3 shadow-lg" src={Kompas} width={96} height={72} alt="Web3 on Campus" />

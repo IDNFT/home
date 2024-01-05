@@ -2,15 +2,15 @@
 
 import { useState, useRef, useEffect } from 'react'
 import Slider from '@/components/utils/slider'
-import Thumb1 from '@/public/images/thumb-ub.jpg'
-import Thumb2 from '@/public/images/thumb-binus.jpg'
-import Thumb3 from '@/public/images/thumb-um.jpg'
-import Thumb4 from '@/public/images/thumb-ugm.jpg'
-import Thumb5 from '@/public/images/thumb-malang.jpg'
-import Thumb6 from '@/public/images/thumb-malang.jpg'
-import Thumb7 from '@/public/images/thumb-malang.jpg'
-import Thumb8 from '@/public/images/thumb-malang.jpg'
-import Thumb9 from '@/public/images/thumb-malang.jpg'
+import Thumb1 from '@/public/images/thumb1-kompas.jpg'
+import Thumb2 from '@/public/images/thumb2-coinvestasi.jpg'
+import Thumb3 from '@/public/images/thumb3-liputan6.webp'
+import Thumb4 from '@/public/images/thumb4-tempo.jpg'
+import Thumb5 from '@/public/images/thumb5-coinvestasi.jpg'
+import Thumb6 from '@/public/images/thumb6-coinfolks.webp'
+import Thumb7 from '@/public/images/thumb7-tempo.jpg'
+import Thumb8 from '@/public/images/thumb8-coinfolks.webp'
+import Thumb9 from '@/public/images/thumb9-trenasia.webp'
 import Thumb10 from '@/public/images/thumb-malang.jpg'
 
 export default function News() {
@@ -40,8 +40,8 @@ export default function News() {
           <p className="text-lg text-gray-600 mb-4" data-aos="zoom-y-out" data-aos-delay="150">There is some news from Web3 and NFT industry in Indonesia! Stay informed and be part of the evolving digital landscape.</p>
         <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
       </div>
-    </div>
-        </div>
+      </div>
+      </div>
        </div>
 
        </div>
@@ -53,7 +53,7 @@ export default function News() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-12">
           
-          {/* Gallery */}
+          {/* News */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
 
             {/* 1st Program */}
