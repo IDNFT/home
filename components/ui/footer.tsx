@@ -76,7 +76,7 @@ export default function Footer() {
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="text-gray-800 font-medium mb-2">Contact Us</h6>
-            <p className="text-sm text-gray-600 mb-4">Let's collaborate with us by contacting via email.</p>
+            <p className="text-sm text-gray-600 mb-4">Let's collaborate with us by contacting via email at hi@idnft.id</p>
             <form>
               <div className="flex flex-wrap mb-4">
                 <div className="w-full">
