@@ -8,6 +8,8 @@ import Programs from '@/components/programs'
 import Tagline from '@/components/tagline'
 import Partner from '@/components/partner'
 import Community from '@/components/community'
+import NewsSlider from '@/components/news/news-slider'
+import News from '../news/page'
 
 
 export default function Home() {
@@ -18,6 +20,7 @@ export default function Home() {
       <Tagline />
       <Partner />
       <Community />
+      <News />
     </>
   )
 }

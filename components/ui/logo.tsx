@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Logo() {
   return (
-    <Link href="/" className="block" aria-label="Cruip">
+    <Link href="/" className="block" aria-label="IDNFT">
       <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 256 256" fill="none">
         <path d="M47.9192 88.3361L23.1267 73.9564L22.6309 190.481L47.9192 205.853V174.118L60.3155 212.795L86.5956 228.166V110.649L60.3155 95.278V141.888L47.9192 88.3361Z" fill="url(#paint0_linear_191_2558)"/>
         <path d="M94.5292 233.124V115.112L126.759 133.459L160.973 114.12V144.863L126.759 163.705L120.313 159.739V178.085L126.759 184.035L156.015 166.68V197.919L126.759 214.778L120.313 209.324V248L94.5292 233.124Z" fill="url(#paint1_linear_191_2558)"/>
