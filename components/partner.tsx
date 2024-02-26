@@ -13,6 +13,8 @@ import IsiBali from "@/public/partner/univ-isibali.svg"
 import Andalas from "@/public/partner/univ-andalas.svg"
 import Binus from "@/public/partner/univ-binus.svg"
 import UPN from "@/public/partner/univ-upn.svg"
+import Unesa from "@/public/partner/univ-unesa.svg"
+import UHW from "@/public/partner/univ-uhw.svg"
 
 import ABI from "@/public/partner/gov-abi.svg"
 import ICCA from "@/public/partner/gov-icca.svg"
@@ -165,6 +167,23 @@ export default function Partner() {
               <h3 className="text-center text-sm text-gray-600 mt-3">Binus University</h3>
               </div>
             </div>
+
+             {/* Logo Unesa */}
+             <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+              <div>
+              <Image className="md:max-w-none mx-auto" src={Unesa} width={75} height={75} alt="Unesa" />
+              <h3 className="text-center text-sm text-gray-600 mt-3">Surabaya State University</h3>
+              </div>
+            </div>
+
+             {/* Logo UHW */}
+             <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
+              <div>
+              <Image className="md:max-w-none mx-auto" src={UHW} width={75} height={75} alt="UHW" />
+              <h3 className="text-center text-sm text-gray-600 mt-3">Hayam Wuruk Perbanas University</h3>
+              </div>
+            </div>
+            
         </div>
         
         <div className="py-12 md:py-20">
