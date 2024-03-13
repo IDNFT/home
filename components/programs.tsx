@@ -64,7 +64,7 @@ export default function Programs() {
               <blockquote className="text-lg font-bold text-red-700">Web3 on Campus</blockquote>
               <blockquote className="text-md text-gray-600">A roadshow program aimed at socializing and educating about Web3 dan NFT industry to students in biggest universities in Indonesia.</blockquote>
               <div className="text-gray-600 font-medium mt-6 pt-5 border-t border-gray-300 text-center">
-                <Link className="btn rounded-full font-medium text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="#" replace>See More</Link>
+                <Link className="btn rounded-full font-medium text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="https://web3campus.idnft.id" rel="noopener" target="_blank">See More</Link>
               </div>
               </div>
             </div>
@@ -88,7 +88,7 @@ export default function Programs() {
               <blockquote className="text-lg font-bold text-red-700">IDNFT Academy</blockquote>
               <blockquote className="text-md text-gray-600">A series of structured online seminar courses with a comprehensive curriculum covering NFT, Web3, Crypto, and Blockchain.</blockquote>
               <div className="text-gray-600 font-medium mt-6 pt-5 border-t border-gray-300 text-center">
-                <Link className="btn rounded-full font-medium text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="#" replace>See More</Link>
+                <Link className="btn rounded-full font-medium text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="https://www.instagram.com/idnftacademy/" rel="noopener" target="_blank">See More</Link>
               </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ export default function Programs() {
               <blockquote className="text-lg font-bold text-red-700">Beyond Canvas</blockquote>
               <blockquote className="text-md text-gray-600">An exhibition program for artists and NFT creators trougtout Indonesia, both in the Metaverse and physical exhibitions.</blockquote>
               <div className="text-gray-600 font-medium mt-6 pt-5 border-t border-gray-300 text-center">
-                <Link className="btn rounded-full font-medium text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="#" replace>See More</Link>
+                <Link className="btn rounded-full font-medium text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="https://www.instagram.com/beyondcanvas.id/" rel="noopener" target="_blank">See More</Link>
               </div>
               </div>
             </div>
@@ -136,7 +136,7 @@ export default function Programs() {
               <blockquote className="text-lg font-bold text-red-700">Temu NFT and Web3</blockquote>
               <blockquote className="text-md text-gray-600">A roadshow program to various cities in Indonesia for education, socialization, and community engagement in the NFT and Web3 space.</blockquote>
               <div className="text-gray-600 font-medium mt-6 pt-5 border-t border-gray-300 text-center">
-                <a className="btn rounded-full font-medium text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="#">See More</a>
+                <a className="btn rounded-full font-medium text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0 place-items-center justify-center content-center" href="https://www.instagram.com/p/C0JqfQZSdLZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" rel="noopener" target="_blank">See More</a>
               </div>
               </div>
             </div>
