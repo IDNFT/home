@@ -48,28 +48,28 @@ export default function Header() {
               <li>
                 <Dropdown
                 title="Programs">
-                  <a href="#" className="text-sm">
+                  <a href="https://web3campus.idnft.id" rel="noopener" target="_blank" className="text-sm">
                     <ul>
                       <li className="mb-2 hover:text-red-700">
                         Web3 on Campus
                       </li>
                     </ul>
                   </a>
-                  <a href="#" className="text-sm">
+                  <a href="https://www.instagram.com/idnftacademy/" rel="noopener" target="_blank" className="text-sm">
                     <ul>
                       <li className="mb-2 pt-2 hover:text-red-700 border-t border-gray-200">
                         IDNFT Academy
                       </li>
                     </ul>
                   </a>
-                  <a href="#" className="text-sm">
+                  <a href="https://www.instagram.com/beyondcanvas.id/" rel="noopener" target="_blank" className="text-sm">
                     <ul>
                       <li className="mb-2 pt-2 hover:text-red-700 border-t border-gray-200">
                         Beyond Canvas
                       </li>
                     </ul>
                   </a>
-                  <a href="#" className="text-sm">
+                  <a href="https://www.instagram.com/p/C0JqfQZSdLZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" rel="noopener" target="_blank" className="text-sm">
                     <ul>
                       <li className="pt-2 hover:text-red-700 border-t border-gray-200">
                         Temu NFT & Web3
