@@ -43,6 +43,9 @@ export default function Header() {
                 <Link href="/news" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">News</Link>
               </li>
               <li>
+                <Link href="/timeline" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Timeline</Link>
+              </li>
+              <li>
                 <Link href="/community" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Community</Link>
               </li>
               <li>

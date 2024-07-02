@@ -1,4 +1,6 @@
 import Image from "next/image"
+import Univ from "./univ"
+import { partnerData } from "./constant/data"
 
 import UGM from '@/public/partner/univ-ugm.svg'
 import ITS from '@/public/partner/univ-its.svg'
@@ -62,127 +64,15 @@ export default function Partner() {
           </div>
 
           {/* Items */}
-          <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-6 md:grid-cols-5 sm:grid-cols-6" data-aos="zoom-y-out">
-
-            {/* Logo UGM */}
-            <div className="items-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-              <div>
-              <Image className="md:max-w-none mx-auto" src={UGM} width={75} height={75} alt="UGM" />
-              </div>
-              <h3 className='text-center text-sm text-gray-600 mt-3'>Gadjah Mada University</h3>
-            </div>
-
-            {/* Logo ITS */}
-            <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-              <div>
-              <Image className="md:max-w-none mx-auto" src={ITS} width={75} height={75} alt="ITS" />  
-              </div>  
-              <h3 className="text-center text-sm text-gray-600 mt-3">Sepuluh Nopember Technology Institute</h3>          
-            </div>
-
-            {/* Logo UB */}
-            <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-              <div>
-              <Image className="md:max-w-none mx-auto" src={UB} width={75} height={75} alt="UB" />
-              <h3 className="text-center text-sm text-gray-600 mt-3">Brawijaya University</h3>
-              </div>
-            </div>
-
-            {/* Logo UM */}
-            <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-              <div>
-              <Image className="md:max-w-none mx-auto" src={UM} width={75} height={75} alt="UM" />
-              <h3 className="text-center text-sm text-gray-600 mt-3">Malang State University</h3>
-              </div>
-            </div>
-
-            {/* Logo UII */}
-            <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-              <div>
-              <Image className="md:max-w-none mx-auto" src={UII} width={75} height={75} alt="UII" />
-              <h3 className="text-center text-sm text-gray-600 mt-3">Islamic University of Indonesia</h3>
-              </div>
-            </div>
-
-            {/* Logo Widyatama */}
-            <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-              <div>
-              <Image className="md:max-w-none mx-auto" src={Widyatama} width={75} height={75} alt="Widyatama" />
-              <h3 className="text-center text-sm text-gray-600 mt-3">Widyatama University</h3>
-              </div>
-            </div>
-
-            {/* Logo UPN */}
-            <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-              <div>
-              <Image className="md:max-w-none mx-auto" src={UPN} width={75} height={75} alt="UPN" />
-              <h3 className="text-center text-sm text-gray-600 mt-3">UPN “Veteran” Yogyakarta</h3>
-              </div>
-            </div>
-
-            {/* Logo UPI */}
-            <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-              <div>
-              <Image className="md:max-w-none mx-auto" src={UPI} width={75} height={75} alt="UPI" />
-              <h3 className="text-center text-sm text-gray-600 mt-3">Education University of Indonesia</h3>
-              </div>
-            </div>
-
-            {/* Logo ISI Bali */}
-            <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-              <div>
-              <Image className="md:max-w-none mx-auto" src={IsiBali} width={75} height={75} alt="ISI Bali" />
-              <h3 className="text-center text-sm text-gray mt-3">Indonesia Institute of Art Bali</h3>
-              </div>
-            </div>
-
-            {/* Logo Andalas */}
-            <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-              <div>
-              <Image className="md:max-w-none mx-auto" src={Andalas} width={75} height={75} alt="Andalas" />
-              <h3 className="text-center text-sm text-gray-600 mt-3">Andalas University</h3>
-              </div>
-            </div>
-
-             {/* Logo Telkom */}
-             <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-              <div>
-              <Image className="md:max-w-none mx-auto" src={Telkom} width={75} height={75} alt="Telkom" />
-              <h3 className="text-center text-sm text-gray-600 mt-3">Telkom University</h3>
-              </div>
-            </div>
-
-             {/* Logo Petra */}
-             <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-              <div>
-              <Image className="md:max-w-none mx-auto" src={Petra} width={75} height={75} alt="Petra" />
-              <h3 className="text-center text-sm text-gray-600 mt-3">Petra Christian University</h3>
-              </div>
-            </div>
-
-             {/* Logo Binus */}
-             <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-              <div>
-              <Image className="md:max-w-none mx-auto" src={Binus} width={75} height={75} alt="Binus" />
-              <h3 className="text-center text-sm text-gray-600 mt-3">Binus University</h3>
-              </div>
-            </div>
-
-             {/* Logo Unesa */}
-             <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-              <div>
-              <Image className="md:max-w-none mx-auto" src={Unesa} width={75} height={75} alt="Unesa" />
-              <h3 className="text-center text-sm text-gray-600 mt-3">Surabaya State University</h3>
-              </div>
-            </div>
-
-             {/* Logo UHW */}
-             <div className="items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
-              <div>
-              <Image className="md:max-w-none mx-auto" src={UHW} width={75} height={75} alt="UHW" />
-              <h3 className="text-center text-sm text-gray-600 mt-3">Hayam Wuruk Perbanas University</h3>
-              </div>
-            </div>
+          <div className="place-content-center max-w-sm md:max-w-4xl mx-auto grid gap-4 grid-cols-3 md:grid-cols-5" data-aos="zoom-y-out">
+          {partnerData.map((partner) => (
+          // eslint-disable-next-line react/jsx-key
+            <Univ
+            img={partner.img}
+            univ={partner.univ}                      
+            />
+          ))}
+          </div>
             
         </div>
         
@@ -194,7 +84,7 @@ export default function Partner() {
           </div>    
             
             {/* Items */}
-          <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-6 md:grid-cols-5 sm:grid-cols-6" data-aos="zoom-y-out">
+          <div className="max-w-sm md:max-w-4xl mx-auto grid gap-5 grid-cols-6 md:grid-cols-5 sm:grid-cols-6" data-aos="zoom-y-out">
             
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto saturate-0 hover:saturate-100">
@@ -268,7 +158,6 @@ export default function Partner() {
 
           </div>
         </div>       
-      </div>
     </section>
   )
 }
