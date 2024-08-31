@@ -48,7 +48,7 @@ export default function Header() {
               <li>
                 <Link href="/community" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Community</Link>
               </li>
-              <li>
+              <ul>
                 <Dropdown
                 title="Programs">
                   <a href="https://web3campus.idnft.id" rel="noopener" target="_blank" className="text-sm">
@@ -80,7 +80,7 @@ export default function Header() {
                     </ul>
                   </a>
                 </Dropdown>
-              </li>
+              </ul>
               <li>
                 <Link href="/community" className="btn-sm font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 ml-3 rounded-full">
                   <span>Join Us</span>
