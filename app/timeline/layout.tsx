@@ -5,9 +5,10 @@ import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+import Header from '@/components/ui/header'
 import Footer from '@/components/ui/footer'
 
-export default function DefaultLayout({
+export default function TimelineLayout({
   children,
 }: {
   children: React.ReactNode
@@ -26,6 +27,7 @@ export default function DefaultLayout({
     <>
       <main className="grow">
 
+        <Header />
         {children}
 
       </main>

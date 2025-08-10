@@ -1,7 +1,7 @@
 import Thumb from '@/public/illustration/Hero.svg'
-import MediaVideo from './media-video'
-import Media from './media'
-import Blank from '@/public/illustration/blank.png'
+import MediaVideo from '../media-video'
+import Media from '../media'
+import Blank from '@/public/illustration/beyond-canvas.png'
 
 export default function Hero() {
   return (
@@ -85,8 +85,8 @@ export default function Hero() {
                  {/* <a className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0" href="#">Let's Collaborate</a> */}
                   <MediaVideo 
                   thumb={Blank}
-                  thumbWidth={150}
-                  thumbHeight={100}
+                  thumbWidth={1920}
+                  thumbHeight={1080}
                   thumbAlt='no thumb'
                   video='/videos/profile-idnft.mp4'
                   videoWidth={1920}

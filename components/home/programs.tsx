@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
-import Media from '@/components/media'
+import Media from '../media'
 import Link from 'next/link'
 import IdnftAcademylogo from '@/public/illustration/idnft-academy.png'
 import Web3Campuslogo from '@/public/illustration/web3-campus.png'
@@ -129,7 +129,7 @@ export default function Programs() {
                   media="/illustration/web3-campus-docs.png"
                   mediaWidth={1920}
                   mediaHeight={1080} />
-                  <Image className="rounded-full bg-white absolute p-2 px-4 shadow-lg" src={TemuNftlogo} width={96} height={72} alt="Temu NFT & Web3" />
+                  <Image className="rounded-full bg-white absolute py-2 px-4 shadow-lg" src={TemuNftlogo} width={96} height={72} alt="Temu NFT & Web3" />
                 </div>
               </div>
               <div>

@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from "react"
-import Timeline from "@/components/timeline"
+import Timeline from "@/components/home/timeline"
 
 import { timeline2024Data, timeline2023Data } from "@/components/constant/data"
 
@@ -90,8 +90,8 @@ export default function TimelineDetailed() {
                             <rect width="1920" height="214" fill="url(#paint0_radial_61_1619)"/>
                             <defs>
                             <radialGradient id="paint0_radial_61_1619" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 477) rotate(-90) scale(360 4279.63)">
-                            <stop stop-color="red"/>
-                            <stop offset="1" stop-color="white" stop-opacity="0"/>
+                            <stop stopColor="red"/>
+                            <stop offset="1" stopColor="white" stop-Opacity="0"/>
                             </radialGradient>
                             </defs>
                         </svg>
