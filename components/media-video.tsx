@@ -34,14 +34,13 @@ export default function MediaVideo({
       <div>
         <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
           <div className="flex flex-col justify-center">
-            <Image src={thumb} width={thumbWidth} height={thumbHeight} alt={thumbAlt} />
           </div>
-          <button className="btn absolute top-full flex items-center transform -translate-y-1/2 bg-red-700 text-white rounded-full font-medium group p-6 max-h-5 shadow-lg hover:bg-red-300 hover:text-red-700" onClick={() => { setModalOpen(true) }}>
+          <button className="flex items-center transform -translate-y-1/2 bg-red-700 text-white rounded-full font-medium group p-6 max-h-5 shadow-lg hover:bg-red-300 hover:text-red-700" onClick={() => { setModalOpen(true) }}>
             <svg className="w-5 h-5 fill-current text-white group-hover:text-red-700 shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" />
               <path d="M10 17l6-5-6-5z" />
             </svg>
-            <span className="ml-2 mr-1 min-w-fit font-bold">Play Video</span>
+            <p className="mr-1 min-w-full font-bold">Play Video</p>
           </button>
         </div>
       </div>
@@ -53,12 +52,6 @@ export default function MediaVideo({
           {/* Modal backdrop */}
           <Transition.Child
             className="fixed inset-0 z-[99999] bg-black bg-opacity-75 transition-opacity"
-            enter="transition ease-out duration-200"
-            enterFrom="opacity-0"
-            enterTo="opacity-100"
-            leave="transition ease-out duration-100"
-            leaveFrom="opacity-100"
-            leaveTo="opacity-0"
             aria-hidden="true"
           />
           {/* End: Modal backdrop */}
@@ -66,19 +59,18 @@ export default function MediaVideo({
           {/* Modal dialog */}
           <Transition.Child
             className="fixed inset-0 z-[99999] overflow-hidden flex items-center justify-center transform px-4 sm:px-6"
-            enter="transition ease-out duration-200"
-            enterFrom="opacity-0 scale-95"
-            enterTo="opacity-100 scale-100"
-            leave="ttransition ease-out duration-200"
-            leaveFrom="oopacity-100 scale-100"
-            leaveTo="opacity-0 scale-95"
           >
-            <div className="max-w-6xl mx-auto h-full flex items-center">
+            <div className="container mx-auto h-full flex items-center">
               <Dialog.Panel className="w-full max-h-full aspect-video bg-black overflow-hidden">
-                <video ref={videoRef} width={videoWidth} height={videoHeight} loop controls>
-                  <source src={video} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                <iframe
+                  width={videoWidth}
+                  height={videoHeight}
+                  src={`https://www.youtube.com/embed/y_AtoZuV5sQ?autoplay=1`}
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  
+                />
               </Dialog.Panel>
             </div>
           </Transition.Child>
