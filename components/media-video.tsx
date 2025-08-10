@@ -16,11 +16,6 @@ interface MediaVideoProps {
 }
 
 export default function MediaVideo({
-  thumb,
-  thumbWidth,
-  thumbHeight,
-  thumbAlt,
-  video,
   videoWidth,
   videoHeight,
 }: MediaVideoProps) {
