@@ -6,13 +6,6 @@ interface partnerProps {
   univ: string;
 }
 
-const univList = [
-  { img: '/images/logo-itb.png', univ: 'ITB' },
-  { img: '/images/logo-ui.png', univ: 'UI' },
-  { img: '/images/logo-ugm.png', univ: 'UGM' },
-]
-
-
 const Univ = ({ img, univ }: partnerProps) => {
   return (
     <div className="relative">
